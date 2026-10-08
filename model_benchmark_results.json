@@ -1,0 +1,329 @@
+{
+  "version": "debug_v4",
+  "champion": "glm-4-flash",
+  "models": {
+    "01-ai/yi-large": {
+      "success": false,
+      "status": 404
+    },
+    "ai21labs/jamba-1.5-large-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "aisingapore/sea-lion-7b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "bigcode/starcoder2-15b": {
+      "success": false,
+      "status": 404
+    },
+    "databricks/dbrx-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "deepseek-ai/deepseek-coder-6.7b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "deepseek-ai/deepseek-v4.1-flash": {
+      "success": false,
+      "error": ""
+    },
+    "google/codegemma-1.1-7b": {
+      "success": false,
+      "status": 404
+    },
+    "google/codegemma-7b": {
+      "success": false,
+      "status": 404
+    },
+    "ibm/granite-3.0-3b-a800m-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "ibm/granite-3.0-8b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "ibm/granite-34b-code-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "ibm/granite-8b-code-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "meta/codellama-70b": {
+      "success": false,
+      "status": 404
+    },
+    "microsoft/phi-3.5-moe-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "mistralai/codestral-22b-instruct-v0.1": {
+      "success": false,
+      "status": 404
+    },
+    "mistralai/mistral-7b-instruct-v0.3": {
+      "success": false,
+      "status": 404
+    },
+    "mistralai/mistral-large": {
+      "success": false,
+      "status": 404
+    },
+    "mistralai/mistral-large-2-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "moonshotai/kimi-k2.6": {
+      "success": false,
+      "status": 404
+    },
+    "moonshotai/kimi-k3": {
+      "success": false,
+      "error": ""
+    },
+    "nv-mistralai/mistral-nemo-12b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/llama-3.1-nemotron-51b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/llama-3.1-nemotron-70b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/llama-3.1-nemotron-ultra-253b-v1": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/mistral-nemo-minitron-8b-8k-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
+      "success": true,
+      "tool_pass": true,
+      "reasoning_pass": true,
+      "tool_score": 100,
+      "reasoning_score": 100,
+      "debug_score": 70,
+      "debug_pass": true,
+      "coding_score": 80,
+      "fidelity_score": 0,
+      "latency": 2.286,
+      "provider": "nvidia"
+    },
+    "nvidia/nemotron-3-super-120b-a12b": {
+      "success": true,
+      "tool_pass": true,
+      "reasoning_pass": false,
+      "tool_score": 100,
+      "reasoning_score": 0,
+      "debug_score": 0,
+      "debug_pass": false,
+      "coding_score": 60,
+      "fidelity_score": 100,
+      "latency": 0.408,
+      "provider": "nvidia"
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b": {
+      "success": true,
+      "tool_pass": true,
+      "reasoning_pass": false,
+      "tool_score": 100,
+      "reasoning_score": 0,
+      "debug_score": 0,
+      "debug_pass": false,
+      "coding_score": 0,
+      "fidelity_score": 0,
+      "latency": 17.349,
+      "provider": "nvidia"
+    },
+    "nvidia/nemotron-3.5-lightning-30b-a3b": {
+      "success": false,
+      "error": ""
+    },
+    "nvidia/nemotron-4-340b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/nemotron-4-340b-reward": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/nemotron-nano-3-30b-a3b": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/nemotron-parse": {
+      "success": false,
+      "status": 400
+    },
+    "nvidia/nemotron-parse-2.0": {
+      "success": false,
+      "status": 400
+    },
+    "openai/gpt-oss-20b": {
+      "success": false,
+      "tool_pass": false,
+      "error": "no tool calling"
+    },
+    "zyphra/zamba2-7b-instruct": {
+      "success": false,
+      "status": 404
+    },
+    "nvidia/nemotron-3.5-lightning:free": {
+      "success": false,
+      "status": 429,
+      "provider": "openrouter"
+    },
+    "nvidia/nemotron-3.5-content-safety:free": {
+      "success": false,
+      "status": 404,
+      "provider": "openrouter"
+    },
+    "nvidia/nemotron-3-ultra-550b-a55b:free": {
+      "success": false,
+      "status": 429,
+      "provider": "openrouter"
+    },
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+      "success": false,
+      "status": 429,
+      "provider": "openrouter"
+    },
+    "nvidia/nemotron-3-super-120b-a12b:free": {
+      "success": false,
+      "status": 429,
+      "provider": "openrouter"
+    },
+    "glm-4-flash": {
+      "success": true,
+      "tool_pass": true,
+      "reasoning_pass": true,
+      "tool_score": 100,
+      "reasoning_score": 0,
+      "debug_score": 100,
+      "debug_pass": true,
+      "coding_score": 60,
+      "fidelity_score": 100,
+      "latency": 0.848,
+      "provider": "zhipu"
+    },
+    "glm-4.7-flash": {
+      "success": false,
+      "error": "",
+      "provider": "zhipu"
+    },
+    "glm-z1-flash": {
+      "success": false,
+      "tool_pass": false,
+      "reasoning_pass": false,
+      "tool_score": 0,
+      "reasoning_score": 0,
+      "debug_score": 80,
+      "coding_score": 0,
+      "fidelity_score": 0,
+      "debug_pass": true,
+      "latency": 0.687,
+      "provider": "zhipu"
+    },
+    "Qwen/Qwen3-30B-A3B-Thinking-2507": {
+      "success": false,
+      "tool_pass": false,
+      "reasoning_pass": false,
+      "tool_score": 0,
+      "reasoning_score": 0,
+      "debug_score": 90,
+      "coding_score": 0,
+      "fidelity_score": 0,
+      "debug_pass": true,
+      "latency": 0.305,
+      "provider": "atomgit"
+    },
+    "Qwen/Qwen3-32B": {
+      "success": false,
+      "tool_pass": false,
+      "reasoning_pass": false,
+      "tool_score": 0,
+      "reasoning_score": 0,
+      "debug_score": 50,
+      "coding_score": 0,
+      "fidelity_score": 0,
+      "debug_pass": true,
+      "latency": 0.236,
+      "provider": "atomgit"
+    },
+    "Qwen/Qwen2-VL-72B": {
+      "success": false,
+      "tool_pass": false,
+      "reasoning_pass": false,
+      "tool_score": 0,
+      "reasoning_score": 0,
+      "debug_score": 5,
+      "coding_score": 0,
+      "fidelity_score": 100,
+      "debug_pass": false,
+      "latency": 0.253,
+      "provider": "atomgit"
+    },
+    "deepseek-ai/DeepSeek-V4-Flash": {
+      "success": true,
+      "tool_pass": true,
+      "reasoning_pass": true,
+      "tool_score": 100,
+      "reasoning_score": 100,
+      "debug_score": 0,
+      "debug_pass": false,
+      "coding_score": 0,
+      "fidelity_score": 100,
+      "latency": 2.098,
+      "provider": "atomgit"
+    },
+    "Qwen/Qwen3-30B-A3B": {
+      "success": false,
+      "tool_pass": false,
+      "reasoning_pass": false,
+      "tool_score": 0,
+      "reasoning_score": 0,
+      "debug_score": 35,
+      "coding_score": 0,
+      "fidelity_score": 0,
+      "debug_pass": true,
+      "latency": 0.162,
+      "provider": "atomgit"
+    },
+    "Qwen/Qwen3-30B-A3B-Instruct-2507": {
+      "success": false,
+      "tool_pass": false,
+      "reasoning_pass": false,
+      "tool_score": 0,
+      "reasoning_score": 0,
+      "debug_score": 47,
+      "coding_score": 0,
+      "fidelity_score": 0,
+      "debug_pass": true,
+      "latency": 0.106,
+      "provider": "atomgit"
+    },
+    "Qwen/Qwen3-4B-Instruct-2507": {
+      "success": false,
+      "tool_pass": false,
+      "reasoning_pass": false,
+      "tool_score": 0,
+      "reasoning_score": 0,
+      "debug_score": 0,
+      "coding_score": 0,
+      "fidelity_score": 0,
+      "debug_pass": false,
+      "latency": 0.136,
+      "provider": "atomgit"
+    }
+  }
+}
